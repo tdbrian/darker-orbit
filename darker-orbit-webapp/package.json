@@ -1,28 +1,16 @@
 {
   "name": "darker-orbit-webapp",
-  "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Thomas Brian <tbrian@appriver.com>",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
-  },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "nuxt": "^1.0.0"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
   },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.3"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
